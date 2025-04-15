@@ -1,0 +1,977 @@
+.tit{
+    size: 55px;
+    color: orangered;
+    margin-left: 100px;
+    margin-top: 25px;
+    
+}
+.tit{
+  size: 55px;
+  color: rgb(206, 65, 14);
+  margin-left: 100px;
+  margin-top: 25px;
+  
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+background-color: hsl(216, 82%, 43%);
+color: rgb(15, 175, 42);
+}
+
+.navigation a{
+text-decoration: none;
+color: #fff;
+font-size: 1.1em;
+font-weight: 100;
+padding-left: 30px;
+
+
+}
+.navigation a:hover {
+color: #ff5e62;
+}
+
+
+header {
+background-color: rgba(9, 170, 76, 0.6);
+position: fixed;
+width: 100%;
+padding: 20px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+
+}
+section {
+padding: 120px 50px;
+}
+
+
+.main h2 {
+font-size: 3em;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.main h2 span {
+font-size: 1.5em;
+font-weight: 80;
+color: #ff5e94;
+display: inline-block;
+margin-top: 10px;
+margin-left: 50px;
+}
+
+.main-btn {
+text-decoration: none;
+color: #0a8797;
+background-color: #a7b30c;
+font-size: 1.2em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+border-radius: 15px;
+margin-top: 20px;
+transition: all 0.3s ease;
+margin-left: 450px;
+
+
+}
+
+.services {
+background-color: #000000;
+color: rgb(214, 201, 201);
+padding: 50px 100px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.services h1 {
+font-size: 2.5em;
+margin-bottom: 30px; 
+color: rgb(216, 189, 189);
+}
+
+.services .content {
+display: flex;
+justify-content: center; 
+flex-wrap: wrap;
+gap: 20px; 
+}
+
+.services .carte {
+background-color: red#d8afaf;
+width: 250px;
+padding: 30px;
+margin: 15px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px white(224, 218, 218, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+text-align: center;
+color: #2b0db1;
+}
+
+.services .carte:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px white(0, 0, 0, 0.15);
+}
+
+.services .carte i {
+font-size: 3em;
+color: #dbaaab;
+margin-bottom: 20px; 
+margin-top: 20px; 
+}
+
+.services .carte p {
+margin-top: 20px; 
+margin-bottom: 20px; 
+}
+
+.langage {
+background-color: #2dc20f;
+padding: 50px 100px;
+text-align: center;
+}
+
+.langage .title {
+font-size: 2.5em;
+margin-bottom: 40px;
+color: rgb(255, 255, 255);
+}
+
+.langage-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr); 
+row-gap: 20px;
+column-gap: 10px;
+justify-items: center;
+}
+
+.langage {
+background-color: rgb(21, 197, 36);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+color: rgb(185, 11, 11);
+}
+
+.langage:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px white(0, 0, 0, 0.15);
+}
+
+.langage img {
+width: 80px; 
+height: 80px;
+margin-bottom: 20px;
+}
+
+.langage p {
+font-size: 1.2em;
+color: white;
+}
+
+
+.contact {
+background-color: rgb(78, 23, 182);
+padding: 50px 100px;
+text-align: center;
+}
+
+.contact h2 {
+font-size: 2.5em;
+margin-bottom: 40px;
+color: white;
+}
+
+.contact .content {
+display: flex;
+justify-content: center; 
+gap: 40px; 
+flex-wrap: wrap; 
+}
+
+.contact .carte {
+background-color: #fff;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+text-align: center;
+width: 250px; 
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+.contact .carte:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact .carte i {
+font-size: 3em;
+color: #ff5e62;
+margin-bottom: 20px;
+}
+
+.contact .carte h3 {
+font-size: 1.5em;
+margin-bottom: 15px;
+color: #333;
+}
+
+.contact .carte p {
+font-size: 1.1em;
+color: #333;
+}
+
+.contact .carte a {
+color: #384363;
+text-decoration: none;
+font-weight: 600;
+transition: color 0.3s ease;
+}
+
+.contact .carte a:hover {
+color: #ff5e62;
+}.tit{
+        size: 55px;
+        color: rgb(206, 65, 14);
+        margin-left: 100px;
+        margin-top: 25px;
+        
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+
+body {
+    background-color: hsl(216, 82%, 43%);
+    color: rgb(15, 175, 42);
+  }
+
+.navigation a{
+    text-decoration: none;
+      color: #fff;
+      font-size: 1.1em;
+      font-weight: 100;
+      padding-left: 30px;
+      
+
+}
+.navigation a:hover {
+    color: #ff5e62;
+  }
+
+
+  header {
+    background-color: rgba(9, 170, 76, 0.6);
+    position: fixed;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+   
+  }
+  section {
+    padding: 120px 50px;
+  }
+
+  
+.main h2 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .main h2 span {
+    font-size: 1.5em;
+    font-weight: 80;
+    color: #ff5e94;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+  .main-btn {
+    text-decoration: none;
+    color: #0a8797;
+    background-color: #a7b30c;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    margin-left: 450px;
+    
+
+  }
+
+  .services {
+    background-color: #08c942;
+    color: rgb(214, 201, 201);
+    padding: 50px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .services h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px; 
+    color: rgb(216, 189, 189);
+  }
+  
+  .services .content {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+
+  .services .carte {
+    background-color: #d8afaf;
+    width: 250px;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px white(224, 218, 218, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    color: #2b0db1;
+  }
+  
+  .services .carte:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px white(0, 0, 0, 0.15);
+  }
+  
+  .services .carte i {
+    font-size: 3em;
+    color: #dbaaab;
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+  }
+  
+  .services .carte p {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  .langage {
+    background-color: #2dc20f;
+    padding: 50px 100px;
+    text-align: center;
+  }
+  
+  .langage .title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .langage-container {
+    display: grid;
+     grid-template-columns: repeat(3, 1fr); 
+     row-gap: 20px;
+     column-gap: 10px;
+    justify-items: center;
+  }
+  
+  .langage {
+    background-color: rgb(21, 197, 36);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(78, 226, 98, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: rgb(185, 11, 11);
+  }
+  
+  .langage:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px white(0, 0, 0, 0.15);
+  }
+  
+  .langage img {
+    width: 80px; 
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .langage p {
+    font-size: 1.2em;
+    color: white;
+  }
+
+
+  .contact {
+    background-color: rgb(78, 23, 182);
+    padding: 50px 100px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .contact .content {
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    flex-wrap: wrap; 
+  }
+  
+  .contact .carte{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px blue(7, 207, 50, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    width: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .contact .carte:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px yellow(0, 0, 0, 0.15);
+  }
+  
+  .contact .carte i {
+    font-size: 3em;
+    color: #ff5e62;
+    margin-bottom: 20px;
+  }
+  
+  .contact .carte h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .contact .carte p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .contact .carte a {
+    color: #384363;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .contact .carte a:hover {
+    color: #ff5e62;
+  }.tit{
+    size: 55px;
+    color: rgb(206, 65, 14);
+    margin-left: 100px;
+    margin-top: 25px;
+    
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+background-color: hsl(216, 82%, 43%);
+color: rgb(15, 175, 42);
+}
+
+.navigation a{
+text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 100;
+  padding-left: 30px;
+  
+
+}
+.navigation a:hover {
+color: #ff5e62;
+}
+
+
+header {
+background-color: rgba(9, 170, 76, 0.6);
+position: fixed;
+width: 100%;
+padding: 20px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+
+}
+section {
+padding: 120px 50px;
+}
+
+
+.main h2 {
+font-size: 3em;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.main h2 span {
+font-size: 1.5em;
+font-weight: 80;
+color: #ff5e94;
+display: inline-block;
+margin-top: 10px;
+margin-left: 50px;
+}
+
+.main-btn {
+text-decoration: none;
+color: #0a8797;
+background-color: #a7b30c;
+font-size: 1.2em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+border-radius: 15px;
+margin-top: 20px;
+transition: all 0.3s ease;
+margin-left: 450px;
+
+
+}
+
+.services {
+background-color: #15d374;
+color: rgb(214, 201, 201);
+padding: 50px 100px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.services h1 {
+font-size: 2.5em;
+margin-bottom: 30px; 
+color: rgb(216, 189, 189);
+}
+
+.services .content {
+display: flex;
+justify-content: center; 
+flex-wrap: wrap;
+gap: 20px; 
+}
+
+.services .carte {
+background-color: #d8afaf;
+width: 250px;
+padding: 30px;
+margin: 15px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px white(224, 218, 218, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+text-align: center;
+color: #2b0db1;
+}
+
+.services .carte:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px white(0, 0, 0, 0.15);
+}
+
+.services .card i {
+font-size: 3em;
+color: #dbaaab;
+margin-bottom: 20px; 
+margin-top: 20px; 
+}
+
+.services .carte p {
+margin-top: 20px; 
+margin-bottom: 20px; 
+}
+
+.langage {
+background-color: #2dc20f;
+padding: 50px 100px;
+text-align: center;
+}
+
+.langage .title {
+font-size: 2.5em;
+margin-bottom: 40px;
+color: rgb(255, 255, 255);
+}
+
+.langage-container {
+display: grid;
+ grid-template-columns: repeat(3, 1fr); 
+ row-gap: 20px;
+ column-gap: 10px;
+justify-items: center;
+}
+
+.langage {
+background-color: rgb(21, 197, 36);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+color: rgb(185, 11, 11);
+}
+
+.langage:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px white(0, 0, 0, 0.15);
+}
+
+.langage img {
+width: 80px; 
+height: 80px;
+margin-bottom: 20px;
+}
+
+.langage p {
+font-size: 1.2em;
+color: white;
+}
+
+
+.contact {
+background-color: rgb(78, 23, 182);
+padding: 50px 100px;
+text-align: center;
+}
+
+.contact h2 {
+font-size: 2.5em;
+margin-bottom: 40px;
+color: white;
+}
+
+.contact .content {
+display: flex;
+justify-content: center; 
+gap: 40px; 
+flex-wrap: wrap; 
+}
+
+.contact .carte {
+background-color: #fff;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0px 4px 10px orange(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+text-align: center;
+width: 250px; 
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+.contact .carte:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px yellow(0, 0, 0, 0.15);
+}
+
+.contact .carte i {
+font-size: 3em;
+color: #ff5e62;
+margin-bottom: 20px;
+}
+
+.contact .car teh3 {
+font-size: 1.5em;
+margin-bottom: 15px;
+color: #333;
+}
+
+.contact .card p {
+font-size: 1.1em;
+color: #333;
+}
+
+.contact .carte a {
+color: #384363;
+text-decoration: none;
+font-weight: 600;
+transition: color 0.3s ease;
+}
+
+.contact .carte a:hover {
+color: #ff5e62;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+background-color: #0bd315;
+color: white;
+}
+
+.navigation a{
+text-decoration: none;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 100;
+  padding-left: 30px;
+  
+
+}
+.navigation a:hover {
+color: #ff5e62;
+}
+
+
+header {
+background-color: rgba(231, 210, 20, 0.6);
+position: fixed;
+width: 100%;
+padding: 20px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 1000;
+
+}
+section {
+padding: 120px 50px;
+}
+
+
+.main h2 {
+font-size: 3em;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.main h2 span {
+font-size: 1.5em;
+font-weight: 80;
+color: #ff5e62;
+display: inline-block;
+margin-top: 10px;
+margin-left: 50px;
+}
+
+.main-btn {
+text-decoration: none;
+color: #fff;
+background-color: #384363;
+font-size: 1.2em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+border-radius: 15px;
+margin-top: 20px;
+transition: all 0.3s ease;
+margin-left: 450px;
+
+
+}
+
+.services {
+background-color: #e0e7e3;
+color: white;
+padding: 50px 100px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.services h1 {
+font-size: 2.5em;
+margin-bottom: 30px; 
+color: white;
+}
+
+.services .content {
+display: flex;
+justify-content: center; 
+flex-wrap: wrap;
+gap: 20px; 
+}
+
+.services .carte {
+background-color: #fff;
+width: 250px;
+padding: 30px;
+margin: 15px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px white(224, 218, 218, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+text-align: center;
+color: #000000;
+}
+
+.services .carte:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px white(0, 0, 0, 0.15);
+}
+
+.services .carte i {
+font-size: 3em;
+color: #ff5e62;
+margin-bottom: 20px; 
+margin-top: 20px; 
+}
+
+.services .carte p {
+margin-top: 20px; 
+margin-bottom: 20px; 
+}
+
+.langage {
+background-color: #f7f7f7;
+padding: 50px 100px;
+text-align: center;
+}
+
+.langage .title {
+font-size: 2.5em;
+margin-bottom: 40px;
+color: white;
+}
+
+.langage-container {
+display: grid;
+ grid-template-columns: repeat(3, 1fr); 
+ row-gap: 20px;
+ column-gap: 10px;
+justify-items: center;
+}
+
+.langage {
+background-color: black;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+color: white;
+}
+
+.langage:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px white(0, 0, 0, 0.15);
+}
+
+.langage img {
+width: 80px; 
+height: 80px;
+margin-bottom: 20px;
+}
+
+.langage p {
+font-size: 1.2em;
+color: white;
+}
+
+
+.contact {
+background-color: black;
+padding: 50px 100px;
+text-align: center;
+}
+
+.contact h2 {
+font-size: 2.5em;
+margin-bottom: 40px;
+color: white;
+}
+
+.contact .content {
+display: flex;
+justify-content: center; 
+gap: 40px; 
+flex-wrap: wrap; 
+}
+
+.contact .carte {
+background-color: #fff;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0px 4px 10px blue(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+text-align: center;
+width: 250px; 
+display: flex;
+flex-direction: column;
+align-items: center; 
+}
+
+.contact .carte:hover {
+transform: translateY(-10px);
+box-shadow: 0px 10px 20px orange(0, 0, 0, 0.15);
+}
+
+.contact .carte i {
+font-size: 3em;
+color: #ff5e62;
+margin-bottom: 20px;
+}
+
+.contact .carte h3 {
+font-size: 1.5em;
+margin-bottom: 15px;
+color: #333;
+}
+
+.contact .carte p {
+font-size: 1.1em;
+color: #333;
+}
+
+.contact .carte a {
+color: #384363;
+text-decoration: none;
+font-weight: 600;
+transition: color 0.3s ease;
+}
+
+.contact .carte a:hover {
+color: #ff5e62;
+}
